@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GJ/eQ0E0N902CihkX9R5NPyvoJ9EkyDemi9izmkW52M=",
+  "Hash": "SW/G6yH48vD4clDy3rTFUmerKkwELUBzuWtJA9U/xqk=",
   "Source": "pagamentos-uniforme-etec",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "s3n01d0fra",
-      "Integrity": "+Ck9f9FauHtSi2Z8UnusDkTbG3E/RNmoNC+ovWHxnqI=",
+      "Fingerprint": "tja3m8lzhg",
+      "Integrity": "16GE039PsiDfYDqf6L5GydWXl2qe3CRTfq4khXEUPms=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -997,8 +997,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "erqnejvzbm",
-      "Integrity": "OpH6MJiT9KJNs8X0QQzWoOX5PAJExg5nEBYq0xBBklw=",
+      "Fingerprint": "61ebimp487",
+      "Integrity": "yhXVfAWMBn99qTxKwrHhEyDAz75Yl2MQYuuVyfjPh94=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\pagamentos-uniforme-etec.pdb"
@@ -1018,8 +1018,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "6wqkyqp7ba",
-      "Integrity": "Jh+KMZGEq4t1FrWSGL6FgVsbdKqDypzpvgLOKZXa3GM=",
+      "Fingerprint": "7aum6r8d3l",
+      "Integrity": "zxRiyx8lS4csqtZajyH/3SIL8igfCDHkTNbMziDj3EU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\webcil\\pagamentos-uniforme-etec.wasm"
@@ -5015,7 +5015,7 @@
       "OriginalItemSpec": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Metadata.wasm"
     },
     {
-      "Identity": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\3zxp2ej1zy-s3n01d0fra.gz",
+      "Identity": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\3zxp2ej1zy-tja3m8lzhg.gz",
       "SourceId": "pagamentos-uniforme-etec",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\",
@@ -5029,8 +5029,8 @@
       "RelatedAsset": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4xvs6itxqu",
-      "Integrity": "aBHVtrvtPFeekMpLBI49nqoY7MkJBpcMO6TTEKPs+Wc=",
+      "Fingerprint": "t5gykkrpjb",
+      "Integrity": "UdrXgjcexItU/x71xl74HXyWGAhDaQlH2qEj/2Cxx5c=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6212,7 +6212,7 @@
       "OriginalItemSpec": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XDocument.wasm"
     },
     {
-      "Identity": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\ee6h0esv7q-erqnejvzbm.gz",
+      "Identity": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\ee6h0esv7q-61ebimp487.gz",
       "SourceId": "pagamentos-uniforme-etec",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\",
@@ -6226,8 +6226,8 @@
       "RelatedAsset": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\pagamentos-uniforme-etec.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t9feefilzr",
-      "Integrity": "0Q56MOGK6Wt2IPpwuOpyDhrq89AnUeLxTL2+j2BDQiU=",
+      "Fingerprint": "kujv33i98y",
+      "Integrity": "xFodAPokid7a8ZUFatA63b6chGWWUTsNbHAs36xoXjs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\pagamentos-uniforme-etec.pdb"
@@ -8543,7 +8543,7 @@
       "OriginalItemSpec": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.wasm"
     },
     {
-      "Identity": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\xbslsmoel6-6wqkyqp7ba.gz",
+      "Identity": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\xbslsmoel6-7aum6r8d3l.gz",
       "SourceId": "pagamentos-uniforme-etec",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\",
@@ -8557,8 +8557,8 @@
       "RelatedAsset": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\pagamentos-uniforme-etec.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n5u9hbjl2f",
-      "Integrity": "6y03GVyoOCYa3d6WKGwlW1OH44xF6lcRwq01az/kB6U=",
+      "Fingerprint": "rnw51mba0w",
+      "Integrity": "aeJDUgmyn4zErGj3TihBp1MvQ4QL+hUSnyVQFxOWObQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\bin\\Debug\\net8.0\\wwwroot\\_framework\\pagamentos-uniforme-etec.wasm"
@@ -8809,8 +8809,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dhg6dx6gxx",
-      "Integrity": "D7YryuGD+DuAehAl8qQJplzBIH9QCf7Rap317Z2AlRo=",
+      "Fingerprint": "17e2irfkik",
+      "Integrity": "XUJf37+8KHwWB7/Md6UGW4ASBYpcBLOcqcYK5Nu8cpc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -9021,7 +9021,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+Ck9f9FauHtSi2Z8UnusDkTbG3E/RNmoNC+ovWHxnqI=\""
+          "Value": "\"16GE039PsiDfYDqf6L5GydWXl2qe3CRTfq4khXEUPms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 17:44:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-16GE039PsiDfYDqf6L5GydWXl2qe3CRTfq4khXEUPms="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\3zxp2ej1zy-tja3m8lzhg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000113417262"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8816"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UdrXgjcexItU/x71xl74HXyWGAhDaQlH2qEj/2Cxx5c=\""
         },
         {
           "Name": "Last-Modified",
@@ -9030,45 +9069,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+Ck9f9FauHtSi2Z8UnusDkTbG3E/RNmoNC+ovWHxnqI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\3zxp2ej1zy-s3n01d0fra.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000113391541"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8818"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aBHVtrvtPFeekMpLBI49nqoY7MkJBpcMO6TTEKPs+Wc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:09:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9084,19 +9084,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+Ck9f9FauHtSi2Z8UnusDkTbG3E/RNmoNC+ovWHxnqI=\""
+          "Value": "W/\"16GE039PsiDfYDqf6L5GydWXl2qe3CRTfq4khXEUPms=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+Ck9f9FauHtSi2Z8UnusDkTbG3E/RNmoNC+ovWHxnqI="
+          "Value": "sha256-16GE039PsiDfYDqf6L5GydWXl2qe3CRTfq4khXEUPms="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\3zxp2ej1zy-s3n01d0fra.gz",
+      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\3zxp2ej1zy-tja3m8lzhg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9105,7 +9105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8818"
+          "Value": "8816"
         },
         {
           "Name": "Content-Type",
@@ -9113,11 +9113,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aBHVtrvtPFeekMpLBI49nqoY7MkJBpcMO6TTEKPs+Wc=\""
+          "Value": "\"UdrXgjcexItU/x71xl74HXyWGAhDaQlH2qEj/2Cxx5c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:09:29 GMT"
+          "Value": "Thu, 13 Mar 2025 02:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9135,7 +9135,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aBHVtrvtPFeekMpLBI49nqoY7MkJBpcMO6TTEKPs+Wc="
+          "Value": "sha256-UdrXgjcexItU/x71xl74HXyWGAhDaQlH2qEj/2Cxx5c="
         }
       ]
     },
@@ -15041,7 +15041,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20388"
+          "Value": "22268"
         },
         {
           "Name": "Content-Type",
@@ -15049,7 +15049,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OpH6MJiT9KJNs8X0QQzWoOX5PAJExg5nEBYq0xBBklw=\""
+          "Value": "\"yhXVfAWMBn99qTxKwrHhEyDAz75Yl2MQYuuVyfjPh94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 17:43:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yhXVfAWMBn99qTxKwrHhEyDAz75Yl2MQYuuVyfjPh94="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/pagamentos-uniforme-etec.pdb",
+      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\ee6h0esv7q-61ebimp487.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000062173589"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16083"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFodAPokid7a8ZUFatA63b6chGWWUTsNbHAs36xoXjs=\""
         },
         {
           "Name": "Last-Modified",
@@ -15058,45 +15097,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OpH6MJiT9KJNs8X0QQzWoOX5PAJExg5nEBYq0xBBklw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/pagamentos-uniforme-etec.pdb",
-      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\ee6h0esv7q-erqnejvzbm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000062802236"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15922"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0Q56MOGK6Wt2IPpwuOpyDhrq89AnUeLxTL2+j2BDQiU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:09:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15112,19 +15112,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"OpH6MJiT9KJNs8X0QQzWoOX5PAJExg5nEBYq0xBBklw=\""
+          "Value": "W/\"yhXVfAWMBn99qTxKwrHhEyDAz75Yl2MQYuuVyfjPh94=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OpH6MJiT9KJNs8X0QQzWoOX5PAJExg5nEBYq0xBBklw="
+          "Value": "sha256-yhXVfAWMBn99qTxKwrHhEyDAz75Yl2MQYuuVyfjPh94="
         }
       ]
     },
     {
       "Route": "_framework/pagamentos-uniforme-etec.pdb.gz",
-      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\ee6h0esv7q-erqnejvzbm.gz",
+      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\ee6h0esv7q-61ebimp487.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15133,7 +15133,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15922"
+          "Value": "16083"
         },
         {
           "Name": "Content-Type",
@@ -15141,11 +15141,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0Q56MOGK6Wt2IPpwuOpyDhrq89AnUeLxTL2+j2BDQiU=\""
+          "Value": "\"xFodAPokid7a8ZUFatA63b6chGWWUTsNbHAs36xoXjs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:09:14 GMT"
+          "Value": "Thu, 13 Mar 2025 02:26:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15163,7 +15163,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0Q56MOGK6Wt2IPpwuOpyDhrq89AnUeLxTL2+j2BDQiU="
+          "Value": "sha256-xFodAPokid7a8ZUFatA63b6chGWWUTsNbHAs36xoXjs="
         }
       ]
     },
@@ -15178,7 +15178,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16661"
+          "Value": "22293"
         },
         {
           "Name": "Content-Type",
@@ -15186,7 +15186,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jh+KMZGEq4t1FrWSGL6FgVsbdKqDypzpvgLOKZXa3GM=\""
+          "Value": "\"zxRiyx8lS4csqtZajyH/3SIL8igfCDHkTNbMziDj3EU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 17:43:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxRiyx8lS4csqtZajyH/3SIL8igfCDHkTNbMziDj3EU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/pagamentos-uniforme-etec.wasm",
+      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\xbslsmoel6-7aum6r8d3l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000106530308"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9386"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aeJDUgmyn4zErGj3TihBp1MvQ4QL+hUSnyVQFxOWObQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -15195,45 +15234,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jh+KMZGEq4t1FrWSGL6FgVsbdKqDypzpvgLOKZXa3GM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/pagamentos-uniforme-etec.wasm",
-      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\xbslsmoel6-6wqkyqp7ba.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000107839965"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9272"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6y03GVyoOCYa3d6WKGwlW1OH44xF6lcRwq01az/kB6U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:09:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15249,19 +15249,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Jh+KMZGEq4t1FrWSGL6FgVsbdKqDypzpvgLOKZXa3GM=\""
+          "Value": "W/\"zxRiyx8lS4csqtZajyH/3SIL8igfCDHkTNbMziDj3EU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jh+KMZGEq4t1FrWSGL6FgVsbdKqDypzpvgLOKZXa3GM="
+          "Value": "sha256-zxRiyx8lS4csqtZajyH/3SIL8igfCDHkTNbMziDj3EU="
         }
       ]
     },
     {
       "Route": "_framework/pagamentos-uniforme-etec.wasm.gz",
-      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\xbslsmoel6-6wqkyqp7ba.gz",
+      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\obj\\Debug\\net8.0\\compressed\\xbslsmoel6-7aum6r8d3l.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15270,7 +15270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9272"
+          "Value": "9386"
         },
         {
           "Name": "Content-Type",
@@ -15278,11 +15278,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6y03GVyoOCYa3d6WKGwlW1OH44xF6lcRwq01az/kB6U=\""
+          "Value": "\"aeJDUgmyn4zErGj3TihBp1MvQ4QL+hUSnyVQFxOWObQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:09:14 GMT"
+          "Value": "Thu, 13 Mar 2025 02:26:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15300,7 +15300,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6y03GVyoOCYa3d6WKGwlW1OH44xF6lcRwq01az/kB6U="
+          "Value": "sha256-aeJDUgmyn4zErGj3TihBp1MvQ4QL+hUSnyVQFxOWObQ="
         }
       ]
     },
@@ -37499,6 +37499,51 @@
       ]
     },
     {
+      "Route": "css/app.17e2irfkik.css",
+      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XUJf37+8KHwWB7/Md6UGW4ASBYpcBLOcqcYK5Nu8cpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 02:29:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17e2irfkik"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XUJf37+8KHwWB7/Md6UGW4ASBYpcBLOcqcYK5Nu8cpc="
+        }
+      ]
+    },
+    {
       "Route": "css/app.css",
       "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\wwwroot\\css\\app.css",
       "Selectors": [],
@@ -37509,7 +37554,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1277"
+          "Value": "1318"
         },
         {
           "Name": "Content-Type",
@@ -37517,11 +37562,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"D7YryuGD+DuAehAl8qQJplzBIH9QCf7Rap317Z2AlRo=\""
+          "Value": "\"XUJf37+8KHwWB7/Md6UGW4ASBYpcBLOcqcYK5Nu8cpc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:20:55 GMT"
+          "Value": "Thu, 13 Mar 2025 02:29:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37531,52 +37576,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-D7YryuGD+DuAehAl8qQJplzBIH9QCf7Rap317Z2AlRo="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.dhg6dx6gxx.css",
-      "AssetFile": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\wwwroot\\css\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1277"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"D7YryuGD+DuAehAl8qQJplzBIH9QCf7Rap317Z2AlRo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 02:20:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dhg6dx6gxx"
-        },
-        {
-          "Name": "label",
-          "Value": "css/app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-D7YryuGD+DuAehAl8qQJplzBIH9QCf7Rap317Z2AlRo="
+          "Value": "sha256-XUJf37+8KHwWB7/Md6UGW4ASBYpcBLOcqcYK5Nu8cpc="
         }
       ]
     },

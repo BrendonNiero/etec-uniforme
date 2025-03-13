@@ -11,8 +11,28 @@
     min-height: 100vh;
 }
 
-.color-text {
-    color: #b2b0bf;
+input {
+    color: #b2b0bf !important;
+}
+label {
+    color: #b2b0bf !important;
+}
+
+.size-area {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.size-selected {
+    font-weight: 500;
+}
+
+.size-shirt {
+    color: #7e6fff;
+    background-color: #151521;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
 }
 
 .container {
@@ -54,6 +74,7 @@
 .name-student {
     font-weight: 600;
     font-size: 18px;
+    color: #fff;
 }
 
 .name-status {

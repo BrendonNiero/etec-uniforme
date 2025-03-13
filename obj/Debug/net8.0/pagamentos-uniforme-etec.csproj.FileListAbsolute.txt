@@ -2095,6 +2095,7 @@ C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Deb
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\refint\pagamentos-uniforme-etec.dll
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\pagamentos-uniforme-etec.pdb
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\ref\pagamentos-uniforme-etec.dll
-C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\xbslsmoel6-6wqkyqp7ba.gz
-C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\ee6h0esv7q-erqnejvzbm.gz
-C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\3zxp2ej1zy-s3n01d0fra.gz
+C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\pagamentos-uniforme-etec.sourcelink.json
+C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\xbslsmoel6-7aum6r8d3l.gz
+C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\ee6h0esv7q-61ebimp487.gz
+C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\3zxp2ej1zy-tja3m8lzhg.gz
