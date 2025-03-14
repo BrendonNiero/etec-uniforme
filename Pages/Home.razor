@@ -1,11 +1,13 @@
 ﻿@page "/"
 @using MudBlazor
+@inject pagamentos_uniforme_etec.Services.PedidoService PedidoService;
+@using pagamentos_uniforme_etec.Models;
 
 <PageTitle>Home</PageTitle>
 
 <section class="page">
     <MudTabs Elevation="2" Rounded="true" Centered="true" Class="" Color="Color.Dark">
-        <MudTabPanel Icon="@Icons.Material.Filled.PeopleAlt" Text="TODOS" BadgeData="@(TotalStudens)" BadgeColor="Color.Info">
+        <MudTabPanel Icon="@Icons.Material.Filled.PeopleAlt" Text="TODOS" BadgeData="@(pedidos.Count())" BadgeColor="Color.Info">
             <section class="list-students">
             <MudItem xs="12" sm="6" md="4">
             <MudAutocomplete T="string" Label="Pesquisar Aluno" @bind-Value="value2" SearchFunc="@Search2"
@@ -13,78 +15,158 @@
                 CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab"
                 AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
             </MudItem>
-                @*---------------------------------------*@
+                @foreach(var pedido in pedidos){
                 <div class="container">
                     <div class="perfil-icon">
-                        <span class="profile-image">BR</span>
+                        <span class="profile-image">@GetIcon(pedido.Nome)</span>
                     </div>
                     <div class="flex-col">
                         <div class="name-status">
-                            <p class="name-student">Brendon Berzins</p>
+                            <p class="name-student">@pedido.Nome</p>
+                            @if(pedido.Pago == pedido.TotalAPagar){
                             <MudIcon Icon="@Icons.Material.Filled.CheckCircle" Color="Color.Success" />
+                            } else {
+                            <MudIcon Icon="@Icons.Material.Filled.WarningAmber" Color="Color.Error" />
+                            }
                         </div>
                         <div class="name-status">
                             <div class="size-area">
                                 <p class="size-selected">Tamanho:</p>
-                                <span class="size-shirt">M</span>
-                                <span class="size-shirt">G</span>
+                                @foreach(var tamanho in pedido.Tamanhos){
+                                <span class="size-shirt">@tamanho</span>
+                                }
                             </div>
-                            <span class="total-money">45/45</span>
+                            @if(pedido.Pago == pedido.TotalAPagar){
+                                <span class="total-money">@pedido.Pago/@pedido.TotalAPagar</span>
+                            } else {
+                                <span class="total-money-error">@pedido.Pago/@pedido.TotalAPagar</span>
+                            }
                         </div>
                     </div>
                 </div>
+                }
 
             </section>
         </MudTabPanel>
-        <MudTabPanel Icon="@Icons.Material.Filled.AttachMoney" Text="PAGOS" BadgeData="1" BadgeColor="Color.Success" />
-        <MudTabPanel Icon="@Icons.Material.Filled.WarningAmber" Text="PENDENTES" BadgeData="0" BadgeColor="Color.Error"/>
+        <MudTabPanel Icon="@Icons.Material.Filled.AttachMoney" Text="PAGOS" BadgeData="@(pedidosPagos.Count())" BadgeColor="Color.Success">
+            <section class="list-students">
+            <MudItem xs="12" sm="6" md="4">
+            <MudAutocomplete T="string" Label="Pesquisar Aluno" @bind-Value="value2" SearchFunc="@Search2"
+                ResetValueOnEmptyText="@resetValueOnEmptyText"
+                CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab"
+                AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
+            </MudItem>
+                @foreach(var pedido in pedidosPagos){
+                    <div class="container">
+                        <div class="perfil-icon">
+                            <span class="profile-image">@GetIcon(pedido.Nome)</span>
+                        </div>
+                        <div class="flex-col">
+                            <div class="name-status">
+                                <p class="name-student">@pedido.Nome</p>
+                                @if(pedido.Pago == pedido.TotalAPagar){
+                                <MudIcon Icon="@Icons.Material.Filled.CheckCircle" Color="Color.Success" />
+                                } else {
+                                <MudIcon Icon="@Icons.Material.Filled.WarningAmber" Color="Color.Error" />
+                                }
+                            </div>
+                            <div class="name-status">
+                                <div class="size-area">
+                                    <p class="size-selected">Tamanho:</p>
+                                    @foreach(var tamanho in pedido.Tamanhos){
+                                    <span class="size-shirt">@tamanho</span>
+                                    }
+                                </div>
+                                @if(pedido.Pago == pedido.TotalAPagar){
+                                    <span class="total-money">@pedido.Pago/@pedido.TotalAPagar</span>
+                                } else {
+                                    <span class="total-money-error">@pedido.Pago/@pedido.TotalAPagar</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </section>
+        </MudTabPanel>
+        <MudTabPanel Icon="@Icons.Material.Filled.WarningAmber" Text="PENDENTES" BadgeData="@(pedidosPendentes.Count())" BadgeColor="Color.Error">
+            <section class="list-students">
+            <MudItem xs="12" sm="6" md="4">
+            <MudAutocomplete T="string" Label="Pesquisar Aluno" @bind-Value="value2" SearchFunc="@Search2"
+                ResetValueOnEmptyText="@resetValueOnEmptyText"
+                CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab"
+                AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
+            </MudItem>
+                @foreach(var pedido in pedidosPendentes){
+                    <div class="container">
+                        <div class="perfil-icon">
+                            <span class="profile-image">@GetIcon(pedido.Nome)</span>
+                        </div>
+                        <div class="flex-col">
+                            <div class="name-status">
+                                <p class="name-student">@pedido.Nome</p>
+                                @if(pedido.Pago == pedido.TotalAPagar){
+                                <MudIcon Icon="@Icons.Material.Filled.CheckCircle" Color="Color.Success" />
+                                } else {
+                                <MudIcon Icon="@Icons.Material.Filled.WarningAmber" Color="Color.Error" />
+                                }
+                            </div>
+                            <div class="name-status">
+                                <div class="size-area">
+                                    <p class="size-selected">Tamanho:</p>
+                                    @foreach(var tamanho in pedido.Tamanhos){
+                                    <span class="size-shirt">@tamanho</span>
+                                    }
+                                </div>
+                                @if(pedido.Pago == pedido.TotalAPagar){
+                                    <span class="total-money">@pedido.Pago/@pedido.TotalAPagar</span>
+                                } else {
+                                    <span class="total-money-error">@pedido.Pago/@pedido.TotalAPagar</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </section>
+        </MudTabPanel>
     </MudTabs>
 </section>
 
 @code {
-    public int TotalStudens { get; set; } = 29;
-      private bool resetValueOnEmptyText;
+    public List<Pedido> pedidos = new();
+    public List<Pedido> pedidosPagos = new();
+    public List<Pedido> pedidosPendentes = new();
+    private bool resetValueOnEmptyText;
     private bool coerceText;
     private bool coerceValue;
     private bool selectedOnTab;
-    private string value1, value2;
-    private string[] states =
-    {
-        "Alabama", "Alaska", "American Samoa", "Arizona",
-        "Arkansas", "California", "Colorado", "Connecticut",
-        "Delaware", "District of Columbia", "Federated States of Micronesia",
-        "Florida", "Georgia", "Guam", "Hawaii", "Idaho",
-        "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
-        "Louisiana", "Maine", "Marshall Islands", "Maryland",
-        "Massachusetts", "Michigan", "Minnesota", "Mississippi",
-        "Missouri", "Montana", "Nebraska", "Nevada",
-        "New Hampshire", "New Jersey", "New Mexico", "New York",
-        "North Carolina", "North Dakota", "Northern Mariana Islands", "Ohio",
-        "Oklahoma", "Oregon", "Palau", "Pennsylvania", "Puerto Rico",
-        "Rhode Island", "South Carolina", "South Dakota", "Tennessee",
-        "Texas", "Utah", "Vermont", "Virgin Island", "Virginia",
-        "Washington", "West Virginia", "Wisconsin", "Wyoming",
-    };
+    private string value1 = string.Empty, value2 = string.Empty;
 
-    private async Task<IEnumerable<string>> Search1(string value, CancellationToken token)
-    {
-        // In real life use an asynchronous function for fetching data from an api.
-        await Task.Delay(5, token);
+    protected override void OnInitialized(){
+        pedidos = PedidoService.GetPedidos();
 
-        // if text is null or empty, show complete list
-        if (string.IsNullOrEmpty(value))
-            return states;
-        return states.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+        pedidosPagos = pedidos.Where(p => p.Pago == p.TotalAPagar).ToList();
+
+        pedidosPendentes = pedidos.Where(p => p.Pago < p.TotalAPagar).ToList();
+    }
+
+    public static char GetIcon(string nome){
+        char firstLetter = nome[0];
+        return firstLetter;
     }
 
     private async Task<IEnumerable<string>> Search2(string value, CancellationToken token)
-    {
-        // In real life use an asynchronous function for fetching data from an api.
-        await Task.Delay(5, token);
+{
+    await Task.Delay(5, token);
 
-        // if text is null or empty, don't return values (drop-down will not open)
-        if (string.IsNullOrEmpty(value))
-            return new string[0];
-        return states.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
-    }
+    var nomesPedidos = pedidos.Select(p => p.Nome)
+        .Union(pedidosPagos.Select(p => p.Nome))
+        .Union(pedidosPendentes.Select(p => p.Nome))
+        .Distinct();
+
+    if (string.IsNullOrEmpty(value))
+        return nomesPedidos; // Retorna todos os nomes se o campo estiver vazio
+
+    return nomesPedidos.Where(nome => nome.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+}
+
 }
