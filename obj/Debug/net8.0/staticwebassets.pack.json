@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
+      "Id": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\wwwroot\\cps.png",
+      "PackagePath": "staticwebassets\\cps.png"
+    },
+    {
       "Id": "C:\\Users\\Pichau\\github\\pagamentos-uniforme-etec\\pagamentos-uniforme-etec\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

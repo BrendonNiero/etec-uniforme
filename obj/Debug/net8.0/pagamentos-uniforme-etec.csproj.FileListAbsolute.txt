@@ -2082,9 +2082,6 @@ C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Deb
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\5ao1k8becf-tptq2av103.gz
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\orxotf0uqq-lfu7j35m59.gz
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\j6vgpxdwf1-oyz0vx2fzb.gz
-C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\xbslsmoel6-po2zdc0mi6.gz
-C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\ee6h0esv7q-25laguyoux.gz
-C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\3zxp2ej1zy-mt907g39sl.gz
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -2099,3 +2096,6 @@ C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Deb
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\refint\pagamentos-uniforme-etec.dll
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\pagamentos-uniforme-etec.pdb
 C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\ref\pagamentos-uniforme-etec.dll
+C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\xbslsmoel6-vf4ktd1xdv.gz
+C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\ee6h0esv7q-t1tkyqsb5r.gz
+C:\Users\Pichau\github\pagamentos-uniforme-etec\pagamentos-uniforme-etec\obj\Debug\net8.0\compressed\3zxp2ej1zy-w5ce6rlr3h.gz

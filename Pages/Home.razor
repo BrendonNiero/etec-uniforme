@@ -3,19 +3,26 @@
 @inject pagamentos_uniforme_etec.Services.PedidoService PedidoService;
 @using pagamentos_uniforme_etec.Models;
 
-<PageTitle>Home</PageTitle>
+<PageTitle>ETEC Uniformes</PageTitle>
 
 <section class="page">
+    <MudChart ChartType="ChartType.Donut" Width="300px" Height="300px" InputData="@data" InputLabels="@labels">
+        <CustomGraphics>
+            <text class="donut-inner-text text-color" x="47%" y="35%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Helvetica" font-size="2">Restantes</text>
+            <text class="donut-inner-text text-color" x="47%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Helvetica" font-size="5">R$@(restante)</text>
+        </CustomGraphics>
+    </MudChart>
+
     <MudTabs Elevation="2" Rounded="true" Centered="true" Class="" Color="Color.Dark">
         <MudTabPanel Icon="@Icons.Material.Filled.PeopleAlt" Text="TODOS" BadgeData="@(pedidos.Count())" BadgeColor="Color.Info">
             <section class="list-students">
             <MudItem xs="12" sm="6" md="4">
-            <MudAutocomplete T="string" Label="Pesquisar Aluno" @bind-Value="value2" SearchFunc="@Search2"
+            <MudAutocomplete T="string" Label="Pesquisar Aluno" @bind-Value="@searchText" SearchFunc="@Search2"
                 ResetValueOnEmptyText="@resetValueOnEmptyText"
                 CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab"
                 AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
             </MudItem>
-                @foreach(var pedido in pedidos){
+                @foreach(var pedido in pedidosFiltrados){
                 <div class="container">
                     <div class="perfil-icon">
                         <span class="profile-image">@GetIcon(pedido.Nome)</span>
@@ -50,12 +57,6 @@
         </MudTabPanel>
         <MudTabPanel Icon="@Icons.Material.Filled.AttachMoney" Text="PAGOS" BadgeData="@(pedidosPagos.Count())" BadgeColor="Color.Success">
             <section class="list-students">
-            <MudItem xs="12" sm="6" md="4">
-            <MudAutocomplete T="string" Label="Pesquisar Aluno" @bind-Value="value2" SearchFunc="@Search2"
-                ResetValueOnEmptyText="@resetValueOnEmptyText"
-                CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab"
-                AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
-            </MudItem>
                 @foreach(var pedido in pedidosPagos){
                     <div class="container">
                         <div class="perfil-icon">
@@ -90,12 +91,6 @@
         </MudTabPanel>
         <MudTabPanel Icon="@Icons.Material.Filled.WarningAmber" Text="PENDENTES" BadgeData="@(pedidosPendentes.Count())" BadgeColor="Color.Error">
             <section class="list-students">
-            <MudItem xs="12" sm="6" md="4">
-            <MudAutocomplete T="string" Label="Pesquisar Aluno" @bind-Value="value2" SearchFunc="@Search2"
-                ResetValueOnEmptyText="@resetValueOnEmptyText"
-                CoerceText="@coerceText" CoerceValue="@coerceValue" SelectValueOnTab="@selectedOnTab"
-                AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
-            </MudItem>
                 @foreach(var pedido in pedidosPendentes){
                     <div class="container">
                         <div class="perfil-icon">
@@ -135,11 +130,20 @@
     public List<Pedido> pedidos = new();
     public List<Pedido> pedidosPagos = new();
     public List<Pedido> pedidosPendentes = new();
+    public double totalArregacado { get; set; }
+    public double totalAPagar = 1395;
     private bool resetValueOnEmptyText;
     private bool coerceText;
     private bool coerceValue;
     private bool selectedOnTab;
     private string value1 = string.Empty, value2 = string.Empty;
+    public string searchText { get; set; } = string.Empty;
+    public double[] data { get; set; } = null!;
+    public double restante { get; set; }
+    public string[] labels = { "Pagos", "Restante" };
+    public List<Pedido> pedidosFiltrados => 
+        pedidos.Where(p => string.IsNullOrEmpty(searchText) ||
+        p.Nome.Contains(searchText, StringComparison.OrdinalIgnoreCase)).ToList();
 
     protected override void OnInitialized(){
         pedidos = PedidoService.GetPedidos();
@@ -147,6 +151,12 @@
         pedidosPagos = pedidos.Where(p => p.Pago == p.TotalAPagar).ToList();
 
         pedidosPendentes = pedidos.Where(p => p.Pago < p.TotalAPagar).ToList();
+
+        totalArregacado = pedidos.Sum(p => p.Pago);
+
+        restante = totalAPagar - totalArregacado;
+
+        data = new double[] { totalArregacado, restante };
     }
 
     public static char GetIcon(string nome){
@@ -164,7 +174,7 @@
         .Distinct();
 
     if (string.IsNullOrEmpty(value))
-        return nomesPedidos; // Retorna todos os nomes se o campo estiver vazio
+        return nomesPedidos;
 
     return nomesPedidos.Where(nome => nome.Contains(value, StringComparison.InvariantCultureIgnoreCase));
 }
