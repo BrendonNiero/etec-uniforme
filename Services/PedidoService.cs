@@ -29,7 +29,7 @@ public class PedidoService
             new Pedido { Nome = "Murieli", Tamanhos = new List<string> { "BLP" }, Pago = 45, TotalAPagar = 45 },
             new Pedido { Nome = "Igor", Tamanhos = new List<string> { "XG" }, Pago = 45, TotalAPagar = 45 },
             new Pedido { Nome = "João", Tamanhos = new List<string> { "M" }, Pago = 45, TotalAPagar = 45 },
-            new Pedido { Nome = "Kauã", Tamanhos = new List<string> { "G", "G" }, Pago = 0, TotalAPagar = 90 },
+            new Pedido { Nome = "Kauã", Tamanhos = new List<string> { "G", "G" }, Pago = 90, TotalAPagar = 90 },
             new Pedido { Nome = "Wylian", Tamanhos = new List<string> { "G", "G" }, Pago = 90, TotalAPagar = 90 },
             new Pedido { Nome = "Gabriel Bueno", Tamanhos = new List<string> { "M", "M" }, Pago = 45, TotalAPagar = 90 },
         };
