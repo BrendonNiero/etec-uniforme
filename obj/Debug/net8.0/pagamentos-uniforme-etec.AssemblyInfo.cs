@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pagamentos-uniforme-etec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+129bf1a284463841aa807343ff4db152ab233e38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78cdb14b32309d46ca8690b7a82cad77ae0a68af")]
 [assembly: System.Reflection.AssemblyProductAttribute("pagamentos-uniforme-etec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pagamentos-uniforme-etec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
