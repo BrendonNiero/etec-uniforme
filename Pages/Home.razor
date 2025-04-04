@@ -131,7 +131,7 @@
     public List<Pedido> pedidosPagos = new();
     public List<Pedido> pedidosPendentes = new();
     public double totalArregacado { get; set; }
-    public double totalAPagar = 1395;
+    public double totalAPagar { get; set; }
     private bool resetValueOnEmptyText;
     private bool coerceText;
     private bool coerceValue;
@@ -152,9 +152,11 @@
 
         pedidosPendentes = pedidos.Where(p => p.Pago < p.TotalAPagar).ToList();
 
-        totalArregacado = pedidos.Sum(p => p.Pago);
+        totalArregacado = pedidos.Sum(p => p.TotalAPagar);
 
-        restante = totalAPagar - totalArregacado;
+        totalAPagar = pedidos.Sum(p => p.Pago);
+
+        restante = totalArregacado - totalAPagar;
 
         data = new double[] { totalArregacado, restante };
     }
