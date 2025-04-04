@@ -14,7 +14,7 @@ public class PedidoService
             new Pedido { Nome = "Jaqueline", Tamanhos = new List<string> { "M" }, Pago = 45, TotalAPagar = 45 },
             new Pedido { Nome = "Marcelo", Tamanhos = new List<string> { "M" }, Pago = 45, TotalAPagar = 45 },
             new Pedido { Nome = "Prof. Marcelo", Tamanhos = new List<string> { "XGG" }, Pago = 45, TotalAPagar = 45 },
-            new Pedido { Nome = "Prof. Leonardo", Tamanhos = new List<string> { "M" }, Pago = 0, TotalAPagar = 45 },
+            new Pedido { Nome = "Prof. Leonardo", Tamanhos = new List<string> { "M" }, Pago = 45, TotalAPagar = 45 },
             new Pedido { Nome = "Yasmin", Tamanhos = new List<string> { "GG" }, Pago = 45, TotalAPagar = 45 },
             new Pedido { Nome = "Maria", Tamanhos = new List<string> { "GG" }, Pago = 45, TotalAPagar = 45 },
             new Pedido { Nome = "Paulo", Tamanhos = new List<string> { "GG", "GG" }, Pago = 90, TotalAPagar = 90 },
